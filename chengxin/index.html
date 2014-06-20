@@ -21,11 +21,11 @@
             <div class="j_focus">
                 <div class="WSCSlideWrapper">
                     <div class="WSCSlide WSCSlideTransition">
-                        <img class="WSCSlide_img" src="img/index/a1.jpg" />
-                        <img class="WSCSlide_img" src="img/index/a2.jpg" />
-                        <img class="WSCSlide_img" src="img/index/a3.jpg" />
-                        <img class="WSCSlide_img" src="img/index/a4.jpg" />
-                        <img class="WSCSlide_img" src="img/index/a5.jpg" />
+                        <img class="WSCSlide_img" src="img/index/a1.jpg" onclick="window.location.href='service/diplace.html'"/>
+                        <img class="WSCSlide_img" src="img/index/a2.jpg" onclick="window.location.href='service/id_index.html'"/>
+                        <img class="WSCSlide_img" src="img/index/a3.jpg" onclick="window.location.href='shouhou/shouhou2.html'"/>
+                        <img class="WSCSlide_img" src="img/index/a4.jpg" onclick="window.location.href='service/show_b.html'"/>
+                        <img class="WSCSlide_img" src="img/index/a5.jpg" onclick="window.location.href='service/identify_d.html'"/>
                     </div>
                     <div id="WSCSlideStatus" class="WSCSlideStatus">
                         
@@ -68,4 +68,33 @@
     </div>
 </body>
 <script type="text/javascript" src="js/slide.js"></script>
+<script>
+    ;$(function(){
+        // 预约
+        $(".j_reserve").on("click",function(){
+            window.location.href = "appointment/order.html";
+        });
+        // 搜索
+        $(".j_research").on("click",function(){
+            window.location.href = "cheyuan/search1.html";
+        });
+        // 我要买车
+        $(".j_buycar").on("click",function(){
+            window.location.href = "buy/want1.html";
+        });
+        // 我要卖车
+        $(".j_salecar").on("click",function(){
+            window.location.href = "buy/want2.html";
+        });
+        // 我要置换
+        $(".j_huan").on("click",function(){
+            window.location.href = "buy/want3.html";
+        });
+        // 车源推荐top1，top2，top3
+        $(".j_recomm1,.j_recomm2,.j_recomm3").on("click",function(){
+            window.location.href = "recomm/top3.html";
+        })
+
+    });
+</script>
 </html>
