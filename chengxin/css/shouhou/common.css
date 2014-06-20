@@ -1,0 +1,115 @@
+body, li, ul, ol, p{
+	margin:0;
+	padding: 0px;
+	background-color:#e4e4e4;
+}
+.j_box{
+	width:100%;
+	height:100%;
+}
+
+
+
+
+
+.j_shouhou1{
+	width:59%;
+	height:97px;
+	float:left;
+	background-image:url(../../img/shouhou/shouhou1.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+.j_shouhou2{
+	width:41%;
+	height:97px;
+	float:left;
+	background-image:url(../../img/shouhou/shouhou2.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+.j_shouhou3{
+	width:41%;
+	height:97px;
+	float:left;
+	background-image:url(../../img/shouhou/shouhou3.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+.j_shouhou4{
+	width:59%;
+	height:97px;
+	float:left;
+	background-image:url(../../img/shouhou/shouhou4.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+.j_shouhou5{
+	width:59%;
+	height:97px;
+	float:left;
+	background-image:url(../../img/shouhou/shouhou5.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+.j_shouhou6{
+	width:41%;
+	height:97px;
+	float:left;
+	background-image:url(../../img/shouhou/shouhou6.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+.j_shouhou7{
+	width:100%;
+	height:74px;
+	float:left;
+	background-image:url(../../img/shouhou/shouhou7.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+
+.j_shouContent{
+	font-family: "微软雅黑";
+	float:left;
+	padding:10px 20px 18px 20px;
+	font-size:12px;
+	color: #727171;
+}
+
+.j_shouContent h1{
+	font-size:15px;
+	padding: 5px 0px;
+	margin:0px;
+}
+
+.j_shouContent .j_link{
+	height:31px;
+	border-radius: 5px;
+	font-size:18px;
+	color: #fff;
+	padding:0 10px;
+	text-align: center;
+	font-weight: bold;
+	background:#f08300;
+	text-decoration: none;
+	float:right;
+	line-height: 31px;
+	margin-top:17px;
+}

@@ -1,0 +1,232 @@
+body, li, ul, ol, p{
+	margin:0;
+	padding: 0px;
+	list-style: none;
+}
+
+body{
+	background-color:#e4e4e4;
+}
+
+header{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	background: #eaeeed;
+	background-image:url(../img/common/ceee.jpg); background-repeat:repeat-x; 
+	font-family: "Microsoft YaHei";
+}
+
+header .logo{
+	display: inline-block;
+	margin-left: 12px;
+
+	width:125px;
+	height:33px;
+	background-image:url(../img/common/logo.jpg); background-repeat:no-repeat; 
+	background-size: 100% 100%;
+}
+header .search{
+	display: inline-block;
+	position: relative;
+	top:-4px;
+	margin-left:10px;
+}
+
+header .search1{
+	height:13px;
+	line-height: 13px;
+	width:69px;
+	border:1px solid #f08300;
+	border-radius: 5px 0px 0px 5px;
+	background: #fff;
+	float:left;
+}
+
+header .search2{
+	width:19px;
+	height:17px;
+	line-height: 17px;
+	width:20px;
+	border:1px solid #f08300;
+	border-radius: 0 5px 5px 0;
+	background: #f08300 url(../img/common/sesa.jpg) center center no-repeat;
+	float:left;
+}
+
+.yuyue{
+	display: inline-block;
+	float: right;
+	background: url(../img/common/tty.png) no-repeat;
+	padding-left: 13px;
+	font-size: 14px;
+	color:#f08300;
+	height:14px;
+	line-height: 14px;
+	text-decoration: none;
+	font-weight: bold;margin-top:13px;
+	margin-right: 6px;
+}
+
+.i-titles{
+    width: 100%;height: 45px;
+    background: url("../img/title-bg.png") 0 0 no-repeat;
+    background-size: 100% 45px;
+}
+
+.i-titles a{
+    text-decoration: none;
+    color:#666;
+    font-family: "Microsoft YaHei";
+}
+.i-titles li{
+    float: left;
+    width: 25%;height: 40px;
+    text-align: center;line-height: 40px;
+    color:#666;font-size: 12px;
+    font-weight: bold;
+box-sizing: border-box;
+}
+
+.i-titles a{
+	
+	padding:0 15px;
+	width:100%;
+	text-align: center;
+}
+
+.i-titles i{
+	border-right:1px solid #666;
+	height:10px;
+	overflow: hidden;
+}
+
+.i-titles a.lastchild{
+	border-right:0px;
+	padding-right: none;
+}
+
+li.i-title-cur{
+    color: #f08300;
+    background:url("../img/index/icon_under.png") 50% 100% no-repeat;
+    background-size: 60px 7px;
+}
+
+li.i-title-cur a{
+    color: #f08300;
+    
+}
+
+.header_nav{
+	height:39px;
+	line-height: 39px;
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#fafaf8), to(#e1e0e0));
+	border-bottom:1px solid #fff;
+}
+
+footer{
+	height:39px;
+	border-top: 1px solid #fff;
+	position:fixed;
+	bottom: 0px;
+	width:100%;
+}
+
+footer a{
+	display: block;
+	height: 39px;
+	float:left;
+	width:25%;
+	font-size:9px;
+	text-align: center;
+	background:url("../img/common/qqq1.jpg") repeat-x;
+	border-right: 1px solid #ebebe9;
+	border-left: 1px solid #c8c8c7;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #666;
+}
+
+footer a span{
+	background:url("../img/common/tic2.png") center 10px no-repeat;
+	display: inline-block;
+	height: 100%;
+	padding-top: 22px;font-size:9px;
+	
+}
+
+footer a ins{
+	-webkit-transform:scale(0.9,0.9);
+	display: 	inline-block;
+	font-style: none;
+	text-decoration: none;
+}
+
+footer a .t1{
+	background-position: center 10px;
+}
+
+footer a .t2{
+	background-position: center -21px;
+}
+
+footer a .t3{
+	background-position: center -53px;
+}
+
+footer a .t4{
+	background-position: center -85px;
+}
+
+footer a.sel span{
+	background:url("../img/common/tic1.png") center 10px no-repeat;
+	color:#f08300;
+}
+
+footer a.sel .t1{
+	background-position: center 10px;
+}
+
+footer a.sel .t2{
+	background-position: center -21px;
+}
+
+footer a.sel .t3{
+	background-position: center -53px;
+}
+
+footer a.sel .t4{
+	background-position: center -85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

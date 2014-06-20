@@ -1,0 +1,353 @@
+body, li, ul, ol, p{
+	margin:0;
+	padding: 0px;
+	
+}
+
+body{
+	background-color:#e4e4e4;
+}
+
+body, html,#l-map {width: 100%;height: 100%;overflow: hidden;hidden;margin:0;} 
+.j_box{
+	width:100%;
+	height:100%;
+}
+
+/*  换车 买车 */
+.j_commpad{
+	margin-top:0;
+	clear: both;
+}
+
+.j_commsel{
+	padding:0 15px;
+}
+
+ .j_commsel:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+ }
+
+.j_commsel select{
+	width:49.5%;
+	margin:0;
+	padding:0;
+	float:left;
+	height:34px;
+	border:1px solid #fff;
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#fefefe), to(#e1e1e1));
+	border-radius: 5px;
+	padding-left: 17px;
+	color: #f08300;
+	
+	font-size: 16px;
+}
+
+.j_commsel select option{
+	color: #f08300;
+}
+
+.j_commsel_a{
+	margin-right:2px!important;
+}
+
+.j_change_tit{
+	width:100%;
+	height:29px;
+	line-height: 29px;
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#f4f4f4), to(#e2e2e2));
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	color:#666;
+	padding-left:30px;
+	font-size: 14px;
+}
+
+.j_mar30{
+	margin-top: 30px;
+}
+
+.j_shouContent{
+	font-family: "微软雅黑";
+	padding:19px 15px 18px 20px;
+	font-size:12px;
+	color: #727171;
+	border-bottom: 1px solid #fff;
+}
+
+.j_shouContent h1{
+	font-size:15px;
+	padding: 5px 0px;
+	margin:0px;
+}
+
+
+.j_search{
+	height:36px;
+}
+
+.j_search{
+
+	padding: 15px 15px 20px 15px;
+}
+
+.j_citys{
+	height:35px;
+	border-radius: 5px 0 0 5px;
+	border:1px solid #fff;
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#fff), to(#e1e1e1));
+	color: #f08400;
+	width:79%;
+	float:left;box-sizing: border-box;
+	padding-left: 20px;
+}
+
+
+.j_cityb{
+	height:35px;
+	border-radius: 0 5px 5px 0;
+	border:1px solid #fff;
+	background: #f08300;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	width:21%;
+	float:left;
+}
+
+.j_shouContent .j_link{
+	height:31px;
+	border-radius: 5px;
+	font-size:18px;
+	color: #fff;
+	padding:0 10px;
+	text-align: center;
+	font-weight: bold;
+	background:#f08300;
+	text-decoration: none;
+	float:right;
+	line-height: 31px;
+}
+
+.j_businesslist{
+	width:100%;
+}
+
+.j_businesslist li{
+	width:100%;
+	height:72px;
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#f4f4f4), to(#e2e2e2));
+	padding:10px 0px 10px 15px;
+box-sizing: border-box;
+	color: #727171;line-height: 18px;
+}
+
+.j_businesslist li h3{
+	font-size: 15px;
+	color: #f08300;
+
+}
+
+.j_businesslist .adress{
+	background:url(../../img/network/icon1.png) left center; background-repeat:no-repeat; 
+	padding-left: 13px;
+
+}
+
+.j_businesslist .call{
+	background:url(../../img/network/icon2.png) left center; background-repeat:no-repeat; 
+	padding-left: 13px;
+
+}
+
+.j_lists li{
+	width:100%;
+	position: relative;
+	box-sizing: border-box;
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#fff), to(#e2e2e2));
+	overflow: hidden;
+	height:71px;
+	border-bottom: 1px solid #fff;
+}
+
+.j_list_d{
+	float:left;
+	position: relative;
+	overflow: hidden;
+}
+
+.j_list_r{
+	overflow: hidden;
+	height:71px;
+}
+
+.j_list_price{
+	width:56px;
+	overflow: hidden;
+
+	color: #f08300;
+	text-align: center;
+	background:none;
+}
+
+.j_list_item{
+	line-height: 16px;
+}
+
+.j_list_item h3{
+	font-size: 15px;
+	font-weight: bold;
+	color: #595757;
+	margin:0px;
+	padding-left: 0px;
+	margin-bottom: 4px;
+}
+
+.j_list_price .num{
+	font-size: 40px;
+	height:38px;
+	line-height: 38px;
+}
+
+.j_list_price .unit{
+	font-size: 12px;
+}
+
+.j_list_item .ce{
+	font-size: 9px;
+	word-break: break-all;
+	word-wrap: break-word;
+	color:#595757;
+	line-height: 11px;
+}
+
+
+.j_list_d .rentag{
+	width:21px;
+	height:21px;
+	background-image:url(../../img/recomm/renzheng.jpg); background-repeat:no-repeat; 
+	background-size: 100% 100%;
+	position: absolute;
+	left:8px;
+	top:0px;
+}
+
+.j_tei{
+	border-bottom: 1px solid #fff;
+	position: relative;
+}
+
+.j_tei_title{
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#fff), to(#e2e2e2));
+	height:40px;
+	line-height: 40px;
+	font-size: 15px;
+	color: #666666;
+	padding-left: 9px;
+}
+
+.j_callphone{
+	width:104px;
+	height:40px;
+	background-image:url(../../img/network/callphone.jpg); background-repeat:no-repeat; 
+	background-size: 100% 100%;
+	right:0px;
+	top:0;
+	position: absolute;
+}
+
+.j_network_item{
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#fff), to(#e2e2e2));
+	height:29px;
+	border-bottom: 1px solid #fff;
+}
+
+.j_network_item .area{
+	width:50%;height:29px;line-height: 29px;
+	border-right:1px solid #fff;
+	background:url(../../img/network/icon3.png) 10px center; background-repeat:no-repeat; 
+	padding-left: 29px;
+	box-sizing: border-box;float:left;
+	color: #666666;
+}
+
+.j_network_item .lianxi{
+	width:50%;height:29px;
+	line-height: 29px;
+	background:url(../../img/network/icon4.png) 10px center; background-repeat:no-repeat; 
+	padding-left: 29px;
+	box-sizing: border-box;
+	float:left;
+	color: #666666;
+}
+
+.j_network_item .f333{
+	color: #333;
+}
+
+
+.j_network_item .adress{
+	width:100%;height:29px;
+	line-height: 29px;
+	background:url(../../img/network/icon4.png) 10px center; background-repeat:no-repeat; 
+	padding-left: 29px;
+	box-sizing: border-box;
+	float:left;
+	color: #666666;
+}
+
+.j_network_item .map{
+	color: #f08300;
+}
+
+.j_network_condition{
+	padding:19px 15px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #f08300;
+	border-bottom: 1px solid #fff;
+}
+
+.j_network_condition a{
+	display: inline-block;
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#fefefe), to(#e2e2e2));
+	height:31px;
+	line-height: 31px;
+	width:60px;
+	text-align: center;
+	border-radius: 5px;
+	border:1px solid #fff;
+	color: #f08300;
+	font-weight: bold;
+	margin-right:5px;
+}	
+
+.fb{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

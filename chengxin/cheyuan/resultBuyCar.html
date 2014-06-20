@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="Author" contect="" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />    
+<meta name="apple-mobile-web-app-status-bar-style" content="black" / >    
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />        
+<meta content="telephone=no" name="format-detection" />      
+<meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0;maximum-scale=1.0; user-scalable=no;"/>
+<title>新爱唯欧百万上市礼抽奖</title>
+<link rel="stylesheet" type="text/css" href="../css/main.css" />
+<link rel="stylesheet" type="text/css" href="../css/cheyuan/common.css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.js"></script>
+</head>
+<body>
+    <div class="j_box">
+
+        
+
+        <div class="j_teiR">
+            <div class="j_tei_titleR">
+                你准备申请贷款购买的车辆是
+            </div>
+            
+        </div>
+
+        <div class="j_item_lists clearfix">
+            <ul>
+                <li style="width:100%"><i class="i12">车辆售价：</i><span>6.9万元</span></li>
+                <li style="width:100%"><i class="i12">经销商：</i><span>东昌汽车服务有限公司</span></li>
+            </ul>
+            <div class="other">
+                <div class="titl">具体信息：</div>
+                <p>上海市，别克/凯越2013年首次上牌，已经行驶11461公里，手自一体，1.5L</p>
+            </div>
+            <ul class="iii1">
+                <li style="width:100%" class="iii2"><ins class="fb">在线登记</ins>（首付比例为车款的50%）</li>
+                <li><i>首付金额：</i><span class="prrice">34500元</span></li>
+                <li><i>贷款全额：</i><span class="prrice">34500元</span></li>
+            </ul>
+            
+        </div>
+
+        
+
+        <div id="j_jess" class="j_jess">
+            
+
+            <div class="j_jess_item">
+                <div class="j_jess_item_title" data-open="1">
+                    <span class="j_jess_item_txt t2">贷款套餐</span>
+                    <i class="down"></i>
+                </div>
+                <div class="bbbg">
+                    <div class="j_jess_loan_nav">
+                        <ul>
+                            <li class="sel">套餐A</li>
+                            <li>套餐B</li>
+                            <li>套餐C</li>
+                            <li>套餐D</li>
+                        </ul>
+                    </div>
+
+                    <div class="loan_list">
+                        <div class="loan_item clearfix">
+                            <section>首付比例：<span>50%</span></section>
+                            <section>贷款金额：<span>5900元</span></section>
+                            <section>月供：<span>3678元</span></section>
+                            <section>贷款期数：<span>18月</span></section>
+                        </div>
+                    </div>
+
+                    <div class="comm_line">联系人信息</div>
+
+                    <div id="loan_form" class="loan_form">
+                        <input class="f1" value="姓名" data-default="姓名" />
+                        <input value="电话" data-default="电话" />
+                        <input style="width:99%" value="留言" data-default="留言" />
+                    </div>
+
+                    <div class="sement">声明：我们将对您提交的车贷申请进行预审核,此申请及预审核结果不作为贷款发
+          放的承诺或依据</div>
+
+                    <a href="" class="loan_btn">
+                        贷款申请 <
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script type="text/javascript">
+$(function(){
+    $("#j_jess").find(".j_jess_item_title").bind("click", function(){
+        var is = $(this).attr("data-open") == "1" ? 1 : 0;
+        if(is){
+            $(this).parent().find(".bbbg").hide();
+            $(this).attr("data-open", "0");
+            $(this).find("i").attr("class", "up");
+        }else{
+            $(this).parent().find(".bbbg").show();
+            $(this).attr("data-open", "1");
+            $(this).find("i").attr("class", "down");
+        }
+        
+    });
+
+    /*$("#loan_form").find("input").bind("focus", function(){
+        if(){
+
+        }
+        $(this).val("");
+    });
+
+    $("#loan_form").find("input").bind("blur", function(){
+        $(this).val($(this).attr("data-default"));
+    });*/
+});
+</script>
+</html>

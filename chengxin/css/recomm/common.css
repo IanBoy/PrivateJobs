@@ -1,0 +1,265 @@
+
+body, li, ul, ol, p{
+	margin:0;
+	padding: 0px;
+	
+	font-family: "微软雅黑";
+	list-style: none;
+}
+ body{background-color:#e4e4e4;}
+
+
+.j_recomm_focus{
+
+		height:115px;
+	
+	border-bottom: 1px solid #fff;
+        position: relative;
+
+        overflow: hidden;
+}
+
+.WSCSlide{
+        width: auto;
+        height: 100%;
+        font-size: 0;
+
+        position: absolute;
+        
+        -webkit-transform:translate3d(0,0,0);
+    }
+    .WSCSlideTransition{
+        -webkit-transition: all 0.5s 0s ease-in-out;
+    }
+    .WSCSlide_img{
+        width: 320px;
+        height: 115px;
+    }
+
+.WSCSlideStatus{
+	position: absolute;
+	bottom:6px;
+	left:0px;
+	width:100%;
+	text-align: center;
+}
+
+.WSCSlideStatus li{
+	width:5px;
+	height:5px;
+	border:1px solid #fff;
+	display: inline-block;
+	border-radius: 5px;
+	background: transparent;
+}
+
+.WSCSlideStatus li.sel{
+	background: #f08300;
+	border-color:#f08300;
+}
+
+.j_recomm_t2{
+	width:59%;
+	height:96px;
+	float:left;
+	background-image:url(../../img/recomm/t2.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+.j_recomm_t3{
+	width:41%;
+	height:96px;
+	float:left;
+	background-image:url(../../img/recomm/t3.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+.j_recomm_t4{
+	width:41%;
+	height:96px;
+	float:left;
+	background-image:url(../../img/recomm/t4.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+.j_recomm_t5{
+	width:59%;
+	height:96px;
+	float:left;
+	background-image:url(../../img/recomm/t5.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+.j_recomm_t6{
+	width:59%;
+	height:96px;
+	float:left;
+	background-image:url(../../img/recomm/t6.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+.j_recomm_t7{
+	width:41%;
+	height:96px;
+	float:left;
+	background-image:url(../../img/recomm/t7.jpg); background-repeat:no-repeat; 
+	box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	background-size: 100% 100%;
+}
+
+.j_search{
+	height:36px;
+}
+
+.j_search{
+
+	padding: 15px 15px 20px 15px;
+}
+
+.j_citys{
+	height:35px;
+	border-radius: 5px 0 0 5px;
+	border:1px solid #fff;
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#fff), to(#e1e1e1));
+	color: #f08400;
+	width:68%;
+	float:left;
+}
+
+
+.j_cityb{
+	height:35px;
+	border-radius: 0 5px 5px 0;
+	border:1px solid #fff;
+	background: #f08300;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	width:32%;
+	float:left;
+}
+
+.j_lists li{
+	width:100%;
+	position: relative;
+	box-sizing: border-box;
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#fff), to(#e2e2e2));
+	overflow: hidden;
+	height:71px;
+	border-bottom: 1px solid #fff;
+}
+
+.j_list_d{
+	float:left;
+	position: relative;
+	overflow: hidden;
+}
+
+.j_list_r{
+	overflow: hidden;
+	height:71px;
+}
+
+.j_list_price{
+	width:56px;
+	overflow: hidden;
+
+	color: #f08300;
+	text-align: center;
+	background:none;
+}
+
+.j_list_item{
+	line-height: 16px;
+}
+
+.j_list_item h3{
+	font-size: 15px;
+	font-weight: bold;
+	color: #595757;
+	margin:0px;
+	padding-left: 0px;
+	margin-bottom: 4px;
+}
+
+.j_list_price .num{
+	font-size: 40px;
+	height:38px;
+	line-height: 38px;
+}
+
+.j_list_price .unit{
+	font-size: 12px;
+}
+
+.j_list_item .ce{
+	font-size: 9px;
+	word-break: break-all;
+	word-wrap: break-word;
+	color:#595757;
+	line-height: 11px;
+}
+
+.j_list_d .n1{
+	width:25px;
+	height:37px;
+	background-image:url(../../img/recomm/gold.png); background-repeat:no-repeat; 
+	background-size: 100% 100%;
+	position: absolute;
+	left:10px;
+	top:0px;
+}
+
+.j_list_d .n2{
+	width:25px;
+	height:37px;
+	background-image:url(../../img/recomm/sliver.png); background-repeat:no-repeat; 
+	background-size: 100% 100%;
+	position: absolute;
+	left:10px;
+	top:0px;
+}
+
+.j_list_d .n3{
+	width:25px;
+	height:37px;
+	background-image:url(../../img/recomm/tong.png); background-repeat:no-repeat; 
+	background-size: 100% 100%;
+	position: absolute;
+	left:10px;
+	top:0px;
+}
+
+.j_list_d .commtag{
+	width:45px;
+	height:34px;
+	background-image:url(../../img/recomm/recommtag.png); background-repeat:no-repeat; 
+	background-size: 100% 100%;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+.j_list_d .rentag{
+	width:21px;
+	height:21px;
+	background-image:url(../../img/recomm/renzheng.jpg); background-repeat:no-repeat; 
+	background-size: 100% 100%;
+	position: absolute;
+	left:8px;
+	top:0px;
+}
